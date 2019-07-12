@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="返回"
+        android:background="#1E90FF"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="首页"
+        android:background="#1E90FF"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/bn_set"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="设置"
+        android:background="#1E90FF" />
+
+</LinearLayout>

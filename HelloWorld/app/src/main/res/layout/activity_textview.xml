@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome to my app"
+        android:textColor="#DC143C"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Type something here"
+        android:maxLines="3"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="commit"/>
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_1"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="切换图片"/>
+
+</LinearLayout>
